@@ -22,7 +22,6 @@ const Body = () => {
 
     const handleClick = () => {
         setButtonClicked(true);
-        // Perform your button action here
 
         // Reset the button feedback after a certain duration
         setTimeout(() => {

@@ -16,14 +16,4 @@ export const sendEmailDigest = async (notif, email) => {
             notif: notif,
         },
     });
-    // novu.trigger('emailDigestWorkflow', {
-    //     to: {
-    //         subscriberId: 'digestEmailSub',
-    //         email: email
-    //     },
-    //     payload: {
-    //         notif: notif,
-    //     },
-    // });
-
 }
